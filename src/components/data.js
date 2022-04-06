@@ -1,0 +1,20 @@
+const photos=[
+    {
+        id:'1',
+        name:'A',
+        category:'bird',
+        url:''
+    },
+    {
+        id:'2',
+        name:'b',
+        category:'plants',
+        url:''
+    },
+    {
+        id:'3',
+        name:'c',
+        category:'animals',
+        url:''
+    },
+]

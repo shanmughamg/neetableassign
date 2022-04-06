@@ -1,0 +1,42 @@
+.signin {
+	/*background: url("../../../public/assets/images/th.jpg") center center / cover no-repeat;*/
+}
+
+.fitLogin {
+	padding: 72px;
+}
+
+.heading {
+	font-size: 30px !important;
+	font-weight: bolder !important;
+}
+
+.para {
+	font-size: 14px !important;
+}
+
+.label {
+	font-size: 14px !important;
+}
+
+.input {
+	font-size: 13px !important;
+}
+
+.span {
+	background: transparent !important;
+}
+
+.labelpassword {
+	border-right: transparent !important;
+}
+
+.anchor {
+	font-size: 12px !important;
+
+	
+}
+
+.button {
+	font-size: 15px !important;
+}
