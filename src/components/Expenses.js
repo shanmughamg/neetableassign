@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import ExpensesChart from './ExpensesChart';
 import ExpenseItem from './ExpenseItem';
 import Card from './Card';
 import ExpensesFilter from './ExpensesFilter';
@@ -21,6 +21,7 @@ const Expenses = (props) => {
                     selected={filteredYear}
                     onChangeFilter={filterChangeHandler}
                 />
+                <ExpensesChart expense={filteteredex}/>
                 {filteteredex.length === 0 && <p>No expenses found . </p>}
                 {filteteredex.length > 0 &&
                     filteteredex.map((expense) => (
